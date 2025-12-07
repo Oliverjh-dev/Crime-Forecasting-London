@@ -1,0 +1,14 @@
+﻿# Ignore large processed data
+data/processed/*.csv
+
+# Ignore raw data
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python environment files
+venv/
+__pycache__/
+*.pyc
